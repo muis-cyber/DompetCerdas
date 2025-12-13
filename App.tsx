@@ -118,10 +118,12 @@ function App() {
       {/* Header */}
       <header className="bg-white border-b border-slate-200 sticky top-0 z-30 px-6 py-4 flex justify-between items-center shadow-sm h-[72px]">
         <div className="flex items-center gap-3">
-          {/* Text Logo "R" */}
-          <div className="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center shadow-lg shadow-blue-200">
-            <span className="text-white font-bold text-2xl font-sans tracking-tight">R</span>
-          </div>
+          {/* Logo Image */}
+          <img 
+            src="https://placehold.co/100x100/2563eb/ffffff?text=R" 
+            alt="DompetCerdas Logo" 
+            className="w-10 h-10 rounded-xl shadow-lg shadow-blue-200 object-cover" 
+          />
           <h1 className="text-xl font-bold tracking-tight text-slate-800">DompetCerdas</h1>
         </div>
         <div className="text-xs font-medium bg-slate-100 px-3 py-1 rounded-full text-slate-600">
