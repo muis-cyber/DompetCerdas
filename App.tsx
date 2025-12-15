@@ -120,7 +120,7 @@ function App() {
         <div className="flex items-center gap-3">
           {/* Logo Image */}
           <img 
-            src="https://placehold.co/100x100/2563eb/ffffff?text=R" 
+            src="https://placehold.co/100x100/3B82F6/ffffff?text=R" 
             alt="DompetCerdas Logo" 
             className="w-10 h-10 rounded-xl shadow-lg shadow-blue-200 object-cover" 
           />
